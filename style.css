@@ -3,29 +3,4 @@
   font-family: "Poppins", sans-serif;
 }
 
-.parallax {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: url("/images/1.png") no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-.parallax img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  pointer-events: none;
-}
-.parallax img#brown-cloud {
-  transform: translate(-282px);
-}
 
-#txt {
-  position: absolute;
-  font-size: 5em;
-  color: white;
-}

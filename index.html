@@ -10,8 +10,16 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="style.css" />
     <title>Click 2 Work</title>
+    <style>
+      a {
+        text-decoration: none;
+        font-size: 10px;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar fixed-top">
@@ -54,7 +62,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">tite</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -64,11 +72,11 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  tite
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">tite</a></li>
+                  <li><a class="dropdown-item" href="#">tite</a></li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
@@ -98,129 +106,100 @@
       <br />
       <br /><br />
       <h1 style="color: #0f2b25">Your Freelance Solution</h1>
-      <h5 style="color: #0f2b25">Hiring Over <b>60,000</b> positon</h5>
+      <h5 style="color: #0f2b25">Hiring Over <b>10,000</b> positon</h5>
     </div>
     <div class="container d-flex">
-      <div class="row mx-auto">
-        <div class="col-lg-6 col-md-5 col-sm-12">
-          <input
-            class="form-control w-100 m-2 mx-auto"
-            type="text"
-            placeholder="Search Job"
-            id="job"
-          />
+      <form action="" class="mx-auto">
+        <div class="row">
+          <div class="col-md-5 p-1 col-sm-12">
+            <input
+              class="form-control w-100 mx-auto"
+              type="text"
+              placeholder="Search Job"
+              id="job"
+            />
+          </div>
+          <div class="col-md-5 p-1 col-sm-12">
+            <input
+              class="form-control w-100 mx-auto"
+              type="text"
+              placeholder="Location"
+            />
+          </div>
+          <div class="col-md-2 p-1">
+            <button
+              type="submit"
+              id="search"
+              class="form-control btn-outline-dark"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
-        <div class="col-lg-6 col-md-5 col-sm-12">
-          <input
-            class="form-control w-100 m-2 mx-auto"
-            type="text"
-            placeholder="Location"
-          />
-        </div>
-      </div>
+      </form>
     </div>
     <div class="container text-center p-5">
       <h2 style="color: #0f2b25">JOB LISTING</h2>
     </div>
 
-    <div class="container text-center">
+    <div class="container text-center p-5">
       <h2 style="color: #0f2b25">Explore By Category</h2>
       <div class="row"></div>
     </div>
-    <div class="container">
-      <div class="container-fluid">
-        <div class="row align-content-center mx-auto justify-content-center">
-          <div class="col-5 col-sm-3 shadow-sm m-2 text-center">
-            <img src="images/icon.png" class="w-50 p-2" />
-            <p>Marketing</p>
-          </div>
+  
 
-          <div class="col-5 col-sm-3 shadow-sm m-2 text-center">
-            <img src="images/icon.png" class="w-50 p-2" />
-            <p>Marketing</p>
-          </div>
-          <div class="col-5 col-sm-3 shadow-sm m-2 text-center">
-            <img src="images/icon.png" class="w-50 p-2" />
-            <p>Marketing</p>
-          </div>
-          <div class="col-5 col-sm-3 shadow-sm m-2 text-center">
-            <img src="images/icon.png" class="w-50 p-2" />
-            <p>Marketing</p>
-          </div>
-          <div class="col-5 col-sm-3 shadow-sm m-2 text-center">
-            <img src="images/icon.png" class="w-50 p-2" />
-            <p>Marketing</p>
-          </div>
-          <div class="col-5 col-sm-3 shadow-sm m-2 text-center">
-            <img src="images/icon.png" class="w-50 p-2" />
-            <p>Marketing</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="text-white pt-5 pb-4" style="background-color: #0f2b25">
+    <footer class="text-white pt-4 pb-1" style="background-color: #0f2b25">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5
-              class="text-uppercase mb-4 font-weight-bold text-light"
-              style="font-weight: 700"
-            >
-              SITE LINKS
-            </h5>
-            <div class="fs-6">
-              <p>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <div class="fs-6" ">
+              <p >
                 <a href="index.html" class="text-white">HOME</a>
               </p>
               <p>
-                <a href="product.html" class="text-white">PRODUCT</a>
+                <a href="product.html" class="text-white">JOBSEKERS</a>
               </p>
               <p>
-                <a href="onsite.html" class="text-white">WHERE TO BUY</a>
+                <a href="onsite.html" class="text-white">EMPLOYER</a>
               </p>
               <p>
-                <a href="contact.html" class="text-white">CONTACT US</a>
-              </p>
-              <p>
-                <a href="about.html" class="text-white">ABOUT US</a>
+                <a href="contact.html" class="text-white">ADMIN LOGIN</a>
               </p>
             </div>
           </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5
-              class="text-uppercase mb-4 font-weight-bold text-light"
-              style="font-weight: 700"
-            >
-              LANGUAGES
-            </h5>
+         
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <p>
-              <a href="#" class="text-white">ENGLISH</a>
+              <a href="#" class="text-white">CONTACT US</a>
             </p>
             <p>
-              <a href="#" class="text-white">ESPAÑOL</a>
+              <a href="#" class="text-white">SUPPORT</a>
             </p>
             <p>
-              <a href="#" class="text-white">TAGALOG</a>
+              <a href="#" class="text-white">FEEDBACK</a>
             </p>
-            <p>
-              <a href="#" class="text-white">JAPANESE</a>
-            </p>
-            <p>
-              <a href="#" class="text-white">DUTCH</a>
-            </p>
+            
           </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5
-              class="text-uppercase mb-4 font-weight-bold text-light"
-              style="font-weight: 700"
-            >
-              CONTACTS
-            </h5>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <p><a href="https://www.sss.gov.ph">SSS</a></p>
+            <p><a href="https://www.pagibigfund.gov.ph">PAG-IBIG</a></p>
+            <p><a href="https://www.philhealth.gov.ph">PHIL-HEALTH</a></p>
+            <p><a href="https://www.tesda.gov.ph">TESDA</a></p>
           </div>
         </div>
         <hr />
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center" style="font-size: 10px;">
           <p>Copyright © 2023. Click 2 Work. All Rights Reserved.</p>
         </div>
         <hr />
